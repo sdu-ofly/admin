@@ -14,7 +14,7 @@ public class DemoController {
 	private IDemoService demoService;
 	
 	@RequestMapping("/init")
-	public String init(){
+	public String init() throws Exception{
 		demoService.query();
 		return "admin/init"; 
 	}
