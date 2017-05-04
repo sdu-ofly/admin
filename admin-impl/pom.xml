@@ -25,5 +25,10 @@
     	<artifactId>admin-api</artifactId>
     	<version>1.0.0</version>
     </dependency>
+    <dependency>
+    	<groupId>com.ofly</groupId>
+    	<artifactId>server-core</artifactId>
+    	<version>1.0.0</version>
+    </dependency>
   </dependencies>
 </project>
